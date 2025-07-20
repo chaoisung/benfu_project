@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.root/
+# Conda environments
+*.conda
+*.env
+*.venv
+/root/miniconda3/envs/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+.code-workspace
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data files
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.h5
+*.ckpt
+*.pt
+*.pkl
+*.joblib
+*.model
+*.weights
+
+# Models
+models/
+checkpoints/
+
+# Large files
+*.zip
+*.tar.gz
+*.tar
+*.7z
+*.rar
+
+# Secrets
+*.env
+*.key
+*.pem
